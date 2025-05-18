@@ -35,9 +35,22 @@
 		5FE177772DD32B71006E1D7B /* adlerflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adlerflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5F6181F22DDA653700F3B89C /* Exceptions for "adlerflow" folder in "adlerflow" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ONNX.swift,
+			);
+			target = 5FE1775C2DD32B70006E1D7B /* adlerflow */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5FE1775F2DD32B70006E1D7B /* adlerflow */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5F6181F22DDA653700F3B89C /* Exceptions for "adlerflow" folder in "adlerflow" target */,
+			);
 			path = adlerflow;
 			sourceTree = "<group>";
 		};
