@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F5F934B2DD3812600BDF796 /* SlothCreator.doccarchive in Resources */ = {isa = PBXBuildFile; fileRef = 5F5F934A2DD3812600BDF796 /* SlothCreator.doccarchive */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5FE1776E2DD32B71006E1D7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F5F934A2DD3812600BDF796 /* SlothCreator.doccarchive */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SlothCreator.doccarchive; sourceTree = "<group>"; };
+		5F5F934C2DD3813600BDF796 /* swift-docc-plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "swift-docc-plugin"; path = "/Users/adler/Library/Developer/Xcode/DerivedData/SlothCreatorBuildingDocCDocumentationInXcode-adcfuewpphapvkcmezgxbcimlxrw/SourcePackages/checkouts/swift-docc-plugin"; sourceTree = "<absolute>"; };
 		5FE1775D2DD32B70006E1D7B /* adlerflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adlerflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE1776D2DD32B71006E1D7B /* adlerflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adlerflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE177772DD32B71006E1D7B /* adlerflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adlerflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +85,8 @@
 				5FE177702DD32B71006E1D7B /* adlerflowTests */,
 				5FE1777A2DD32B71006E1D7B /* adlerflowUITests */,
 				5FE1775E2DD32B70006E1D7B /* Products */,
+				5F5F934A2DD3812600BDF796 /* SlothCreator.doccarchive */,
+				5F5F934C2DD3813600BDF796 /* swift-docc-plugin */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5F934B2DD3812600BDF796 /* SlothCreator.doccarchive in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
